@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test / coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs and OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local settings with real credentials (commit config.ini only with Windows auth / no password)
+config.local.ini
+*.secret.ini
+
+# Job output
+jobs/*.log
+
+# Personal presentation guides (not part of the submission)
+docs/*_Guide.pdf
